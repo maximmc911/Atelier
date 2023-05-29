@@ -52,7 +52,7 @@ li{
     color: #ACA592;
    
 }
-.btn{
+.content_btn .btn{
     background: rgba(24, 21, 17, 1);
     border: 1px solid #FFAE2B;
     border-radius: 0px;
@@ -60,7 +60,7 @@ li{
     width: 147px;
     margin-right: 110px;
 }
-.btn a{
+.content_btn .btn a{
     color: rgba(255, 174, 43, 1);
     font-family: 'Old Standard TT';
     font-style: normal;
@@ -72,9 +72,50 @@ li{
     width:1440px;
     width: 100%;
     Height: 600px;
+    
     background-image: url(/app/image/IMAGE.png);
-    background-position: center;
+    background-position:center; 
 }
-.header_inner{
+.header_content{
+    align-items: center;
+    padding: 150px;;
+}
+
+.header_items p{
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFAE2B;
+}
+.header_items h2{
+    padding: 15px;
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+text-align: center;
+color: #FFFFFF;
+}
+.header_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_btn .btn {
+    background: #FFAE2B;
+    border-radius: 0px;
+    height: 50px;
+    width: 143px;
+    border: none;
+}
+.btn a{
+    font-family: Old Standard TT;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(24, 21, 17, 1);
 
 }
