@@ -32,14 +32,14 @@ console.log(cardsPortfolio);
 const parentDiv = document.querySelector(`.main__cards`);
 
 const writeCard = (cardsPortfolio , parentDiv) => {
-    parentDiv.innerHTML = cardsPortfolio.map ((card) =>
+    parentDiv.innerHTML = cardsPortfolio.map (({img, name}) =>
         `
         <div class="card">
         <div class="card__img">
-            <img src="${card.img}" alt="">
+            <img src="${img}" alt="">
         </div>
         <div class="card__item">
-            <p>${card.name}</p>
+            <p>${name}</p>
         </div>
     
     </div>
